@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documentos\\Visual studio\\ProyectoAhorcado\\ProyectoAhorcadoWPF\\ProyectoAhorcadoWPF.csproj",
+      "projectUniqueName": "E:\\Documentos\\GitHub\\ProyectoTecnologiasAhorcadoJuego\\ProyectoAhorcado\\ProyectoAhorcadoWPF\\ProyectoAhorcadoWPF.csproj",
       "projectName": "ProyectoAhorcadoWPF",
-      "projectPath": "E:\\Documentos\\Visual studio\\ProyectoAhorcado\\ProyectoAhorcadoWPF\\ProyectoAhorcadoWPF.csproj",
+      "projectPath": "E:\\Documentos\\GitHub\\ProyectoTecnologiasAhorcadoJuego\\ProyectoAhorcado\\ProyectoAhorcadoWPF\\ProyectoAhorcadoWPF.csproj",
       "packagesPath": "C:\\Users\\azul_\\.nuget\\packages\\",
-      "outputPath": "E:\\Documentos\\Visual studio\\ProyectoAhorcado\\ProyectoAhorcadoWPF\\obj\\",
+      "outputPath": "E:\\Documentos\\GitHub\\ProyectoTecnologiasAhorcadoJuego\\ProyectoAhorcado\\ProyectoAhorcadoWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

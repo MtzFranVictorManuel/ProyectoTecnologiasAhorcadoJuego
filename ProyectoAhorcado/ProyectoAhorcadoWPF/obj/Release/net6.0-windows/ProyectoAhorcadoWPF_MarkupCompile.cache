@@ -1,20 +1,20 @@
 ﻿ProyectoAhorcadoWPF
-1.0.0.0
+
 
 winexe
 C#
 .cs
-E:\Documentos\GitHub\ProyectoTecnologiasAhorcadoJuego\ProyectoAhorcado\ProyectoAhorcadoWPF\obj\Debug\net6.0-windows\
+E:\Documentos\GitHub\ProyectoTecnologiasAhorcadoJuego\ProyectoAhorcado\ProyectoAhorcadoWPF\obj\Release\net6.0-windows\
 ProyectoAhorcadoWPF
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 E:\Documentos\GitHub\ProyectoTecnologiasAhorcadoJuego\ProyectoAhorcado\ProyectoAhorcadoWPF\App.xaml
 11407045341
 
-5-1900202142
+3-1233169557
 1942030480316
 MainWindow.xaml;
 
-False
+True
 
