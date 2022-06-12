@@ -25,5 +25,22 @@ namespace ProyectoAhorcadoServicioWCF
             Boolean registrarNuevoUsuario = UsuarioDao.insertarUsuario(nuevoUsuario);
             return registrarNuevoUsuario;
         }
+
+        public Usuario obtenerUsuarioJugador(int idUsuario)
+        {
+            Usuario informacionUsuario = UsuarioDao.obtenerInfoUsuario(idUsuario);
+            return informacionUsuario;
+        }
+
+        public Boolean modificarUsuario(string nombreCompleto, string password, string telefono, DateTime fechaNacimiento, int idUsuario)
+        {
+            Boolean modificacionRealizada = UsuarioDao.modificarInformacionUsuario(nombreCompleto, password, telefono, fechaNacimiento, idUsuario);
+            return modificacionRealizada;
+        }
+
+        public List<Partida> obtenerPartidasJugadas(int idUsuario)
+        {
+            return PartidaDao.obtenerPartidas(idUsuario);
+        }
     }
 }

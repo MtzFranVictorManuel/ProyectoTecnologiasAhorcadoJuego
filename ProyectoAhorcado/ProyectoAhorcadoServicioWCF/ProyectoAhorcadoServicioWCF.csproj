@@ -108,6 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modelo\ConnectionUtil.cs" />
+    <Compile Include="Modelo\Dao\PartidaDao.cs" />
     <Compile Include="Modelo\Dao\UsuarioDao.cs" />
     <Compile Include="Modelo\Poco\Categoria.cs" />
     <Compile Include="Modelo\Poco\FraseDescubrir.cs" />

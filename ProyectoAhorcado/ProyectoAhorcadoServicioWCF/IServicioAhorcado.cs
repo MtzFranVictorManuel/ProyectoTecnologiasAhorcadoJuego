@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoAhorcadoServicioWCF.Modelo.Poco;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -15,7 +16,12 @@ namespace ProyectoAhorcadoServicioWCF
 
         [OperationContract]
         Boolean registrarUsuario(string nombre, string apellidos, string password, string telefono, string correoElectronico, DateTime fechaNacimiento);
-
+        [OperationContract]
+        Usuario obtenerUsuarioJugador(int idUsuario);
+        [OperationContract]
+        Boolean modificarUsuario(string nombreCompleto, string password, string telefono, DateTime fechaNacimiento, int idUsuario);
+        [OperationContract]
+        List<Partida> obtenerPartidasJugadas(int idUsuario);
         // TODO: agregue aquí sus operaciones de servicio
     }
 
